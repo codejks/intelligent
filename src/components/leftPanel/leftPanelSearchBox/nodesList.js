@@ -32,19 +32,17 @@ const nodes = [
             {
                 id: 6,
                 icon: 'Document',
-                label: '학습 데이터 생성'
+                label: '학습 데이터 생성',
             },
             {
                 id: 7,
                 icon: 'Document',
                 label: '개체 중심 흐름도 내부화면',
-                disabled: true
             },
             {
                 id: 8,
                 icon: 'Document',
                 label: '사건 중심 흐름도 내부화면',
-                disabled: true
             },
         ]
     },
