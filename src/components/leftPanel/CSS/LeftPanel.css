@@ -1,0 +1,65 @@
+#siteMapHeader {
+    padding-top: 27px;
+    border-bottom: 1px solid #d9d9d9;
+    min-width: 120px;
+}
+
+.pluginNameHeader {
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+.pageNameHeader {
+    height: 32px;
+    line-height: 32px;
+    padding-right: 2px;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#linksButton {
+    background: url(../../../assets/images/LeftPanel/share.png) no-repeat center center, 
+    linear-gradient(transparent,transparent);
+}
+#highlightInteractiveButton {
+    background: url(../../../assets/images/LeftPanel/hotspots.png) no-repeat center center,
+    linear-gradient(transparent,transparent);
+    margin-top: 1px;
+}
+.sitemapToolbarButton {
+    float: left;
+    width: 22px;
+    height: 22px;
+    border: 1px solid transparent;
+}
+.pageButtonHeader {
+    float:right;
+    position: relative;
+    padding-bottom: 0px;
+    height: 12px;
+}
+
+/* LeftPanel Search */
+
+#sitemapTreeContainer {
+    overflow: auto;
+    width: 100%;
+}
+
+.searchDiv {
+    padding: 8px 12px 11px 12px;
+}
+
+#searchBox {
+
+    width: 100%;
+    border: none;
+    border-top: 1px solid #d9d9d9;
+    padding : 5px;
+    font-size: 12px;
+}
